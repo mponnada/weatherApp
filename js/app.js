@@ -2,7 +2,6 @@
 
 $(document).ready(function() {
 	
-	initialize();	
 	
 	$("#fetch").click(function(){
 		var searchInput = $("#searchTextField").val();
@@ -65,14 +64,3 @@ function loadWeatherWebService(location)
 	});	
 
 }
-
-function initialize() {
-
-	 var options = {
-			 types: ['(cities)'],			 
-	 };
-	 var input = document.getElementById('searchTextField');
-	 var autocomplete = new google.maps.places.Autocomplete(input, options);
-	}
-  google.maps.event.addDomListener(window, 'load', initialize);
-  

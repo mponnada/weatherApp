@@ -1,0 +1,44 @@
+html,body
+{
+	margin:0;
+	padding:0;
+	font-family:arial;
+}
+
+body
+{
+	background-color:#e1dad3;
+}
+
+#container
+{
+	width:60%;
+	-moz-border-radius:15px;
+	-border-radius:15px;
+	-webkit-border-radius:15px;
+	background:white;
+	margin-left:15%;
+	margin-top:5%;
+	padding:10px;
+}
+
+#heading
+{
+	background:black;
+	padding:5px;
+	color:white;
+	font-size: 1.3em;
+}
+
+#location
+{
+	color:#4d90fe;
+	font-weight: bold;
+}
+
+.weatherData
+{
+	background:#f9edbe;
+	padding:5px;
+	margin-top:5px;
+}

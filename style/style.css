@@ -18,8 +18,20 @@ body
 	-webkit-border-radius:15px;
 	background:white;
 	margin-left:15%;
-	margin-top:5%;
+	margin-top:2%;
 	padding:10px;
+}
+
+#statusMsg
+{
+	width:60%;
+	background:rgba(61, 148, 0, 0.6);
+	color:white;
+	margin-left:15%;
+	padding:10px;
+	font-family: 'Satisfy', cursive;
+	display:none;
+	font-size:1.2em;
 }
 
 #heading
@@ -34,6 +46,7 @@ body
 {
 	color:#4d90fe;
 	font-weight: bold;
+	font-size:1.5em;
 }
 
 .weatherData
@@ -41,4 +54,23 @@ body
 	background:#f9edbe;
 	padding:5px;
 	margin-top:5px;
+}
+
+input
+{
+	padding:3px;
+	font-size:1em;
+	margin-left:5%;
+}
+
+input[type=button]
+{
+	margin-left:3px;
+}
+
+.hellomsg
+{
+	font-size:1.4em;
+	color:#dd4b39;
+	font-family: 'Satisfy', cursive;
 }
